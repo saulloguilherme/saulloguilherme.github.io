@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    /* border: #000000 1px solid; */
+}
+
+body {
+    background: #D9CDF7;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: #D9CDF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-action {
+    display: flex;
+    justify-content: end;
+}
+
+#svg {
+    width: 10%;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.lato-code {
+    font-size: 10px;
+}
+
+.lato-price {
+    font-size: 16px;
+}
+
+.crimson-product {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: normal;
+    font-size: 32px;
+    color: #271A45;
+
+}
+
+#botao-cesta {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #D9CDF7;
+    border: #271A45 0.5px solid;
+    padding: 2vh;
+    border-radius: 999px;
+}
+
+.side-text p, .side-text button{
+    margin: 1rem 0;
+}
