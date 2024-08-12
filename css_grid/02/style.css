@@ -1,0 +1,18 @@
+.services-listing {
+	display: grid;
+	font-style: italic;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 100px;
+	justify-items: end;
+}
+
+.service {
+	background-color: #e3fae9;
+	padding: .5rem;
+	max-width: fit-content;
+}
+
+.service p {
+	margin: 0;
+}
