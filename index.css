@@ -2,7 +2,6 @@
     margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;
     /*border: red 1px solid;*/
 }
@@ -16,12 +15,14 @@ main {
 }
 
 div.exercicio {
-    width: 30vw;
-    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-div.card {
-    height: 100%;
-    width: 100%;
-    border: red 1px solid;
+iframe.frames {
+    width: 770px;
+    height: 50vh;
+    border-radius: 80px;
+    transform: scale(0.90);
+    border: black 5px solid;
 }
